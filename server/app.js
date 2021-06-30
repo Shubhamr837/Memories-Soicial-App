@@ -16,7 +16,6 @@ app.use('/posts', postRoutes);
 app.get('/', function (req, res) {
       res.end( "Narendra Modi" );
    });
-})
 
 const CONNECTION_URL = 'mongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
 const PORT = process.env.PORT|| 5000;
